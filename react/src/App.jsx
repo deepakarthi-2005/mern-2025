@@ -1,17 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+import React from 'react'
+const child=() =>{
+  return(
     <div>
-      <h1>Hello world</hi>
-      <h2> ! Deepak</h2>
-      <div>
-
-      
+      <h1>Child Component</h1>
+      <p>This is a child componet.</p>
     </div>
-export default App
+  )
+}
+export default child
